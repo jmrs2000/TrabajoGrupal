@@ -23,22 +23,22 @@ public class ProyectoJoseEquipo {
             "¿Cuál es tu serie favorita?"
         };
 
-        // Mezclar las preguntas de forma aleatoria antes de presentarlas
-        mezclarPreguntas(preguntas);
+        // Mezclación de preguntas con el random
+        Mezclas(preguntas);
 
-        // Declaración de un array para almacenar las respuestas del usuario
+        // Arrai de las respuestas
         String[] respuestas = new String[preguntas.length];
 
-        // Scanner para obtener las respuestas del usuario
+        
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar al usuario que responda cada pregunta
+        // Aqui ponemos para que responda a las preguntas
         for (int i = 0; i < preguntas.length; i++) {
             System.out.print(preguntas[i] + " ");
             respuestas[i] = scanner.nextLine();
         }
 
-        // Imprimir las respuestas del usuario
+        // Enseña las respuestas al usuario
         System.out.println("Tus respuestas:");
         for (int i = 0; i < preguntas.length; i++) {
             System.out.println(preguntas[i] + " " + respuestas[i]);
@@ -46,11 +46,11 @@ public class ProyectoJoseEquipo {
     }
 
     // Método para mezclar las preguntas de forma aleatoria
-    private static void mezclarPreguntas(String[] preguntas) {
+    private static void Mezclas(String[] preguntas) {
         Random random = new Random();
         for (int i = preguntas.length - 1; i > 0; i--) {
             int aleatorio = random.nextInt(i + 1);
-            // Intercambiar preguntas[index] con preguntas[i]
+            //Esto es para intercambiar preguntas
             String preguntiñas = preguntas[aleatorio];
             preguntas[aleatorio] = preguntas[i];
             preguntas[i] = preguntiñas;
