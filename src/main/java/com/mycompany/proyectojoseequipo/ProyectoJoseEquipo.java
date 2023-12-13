@@ -16,11 +16,20 @@ public class ProyectoJoseEquipo {
     public static void main(String[] args) {
         // Preguntas
         String[] preguntas = {
+            //Preguntas de Juanma
             "¿Cuál es tu comida favorita?",
             "¿Cuál es tu deporte favorito?",
             "¿Cuál es tu videojuego favorito?",
             "¿Cuál es tu cómic favorito?",
-            "¿Cuál es tu serie favorita?"
+            "¿Cuál es tu serie favorita?",
+            
+            //preguntas de Alfonso
+            
+            "¿cual es tu heroe favorito?",
+            "¿cual es tu villano favorito?",
+            "¿que pelicula de miedo te gusto mas?",
+            "¿que saga de peliculas te gusta mas?",
+            "¿cual es tu manga es tu favorito?"
         };
 
         // Mezclación de preguntas con el random
