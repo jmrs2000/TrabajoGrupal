@@ -16,7 +16,7 @@ public class ProyectoJoseEquipo {
     public static void main(String[] args) {
         // Preguntas
         String[] preguntas = {
-            "¿Cuál es tu comida favorita?",
+            "¿Cuál es tu  favorita?",
             "¿Cuál es tu deporte favorito?",
             "¿Cuál es tu videojuego favorito?",
             "¿Cuál es tu cómic favorito?",
