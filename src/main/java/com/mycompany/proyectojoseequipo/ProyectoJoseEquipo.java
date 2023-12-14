@@ -1,7 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.proyectojoseequipo;
 
 import java.util.Random;
@@ -22,15 +21,19 @@ public class ProyectoJoseEquipo {
             "¿Cuál es tu videojuego favorito?",
             "¿Cuál es tu cómic favorito?",
             "¿Cuál es tu serie favorita?",
-            
             //preguntas de Alfonso
-            
+
             "¿cual es tu heroe favorito?",
             "¿cual es tu villano favorito?",
             "¿que pelicula de miedo te gusto mas?",
             "¿que saga de peliculas te gusta mas?",
-            "¿cual es tu manga es tu favorito?"
-        };
+            "¿cual es tu manga es tu favorito?",
+            //Preguntas de Jaime
+            "¿Qué es un emulador y para qué se utiliza en el contexto de la informática?",
+            "Menciona un ejemplo de emulador de consola de videojuegos y explica cómo funciona.",
+            "¿Cuáles son algunos de los desafíos éticos asociados con el uso de emuladores en el ámbito de los videojuegos?",
+            "Describe brevemente la diferencia entre un emulador de hardware y un emulador de software. ¿En qué situaciones se utilizaría cada uno?",
+            "¿Cuáles son algunas de las ventajas y desventajas de utilizar emuladores para ejecutar software de sistemas operativos diferentes en una computadora?",};
 
         // Mezclación de preguntas con el random
         Mezclas(preguntas);
@@ -38,7 +41,6 @@ public class ProyectoJoseEquipo {
         // Arrai de las respuestas
         String[] respuestas = new String[preguntas.length];
 
-        
         Scanner scanner = new Scanner(System.in);
 
         // Aqui ponemos para que responda a las preguntas
@@ -66,5 +68,3 @@ public class ProyectoJoseEquipo {
         }
     }
 }
-    
-
